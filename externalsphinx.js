@@ -5,6 +5,7 @@ var SphinxClass = (function () {
     var instance = null;
 
     /** private constructor*/
+    function Sphinx() {
         this.session = null;
         this.response = null;
         this.target = null;
